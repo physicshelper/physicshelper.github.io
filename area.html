@@ -1,0 +1,99 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="dynamic.js"></script> 
+    <head>
+      <title>Physics Helper</title>
+    </head>
+    <body class="columns">
+      <div>
+        <div class="column1">
+            <img class="webname" src="physics.jpg" alt="website name">
+            <img class="webname" src="helper.png" alt="website name">
+            <br>
+
+            <p class="description">
+              Solve  physics  problems  with one  click
+            </p><br>
+
+            <p class="normaltext">
+              Contact Us :
+            </p>
+            <form>
+              <label for="name">Name :</label> <br>
+              <input class="name" type="text" id="name"> <br><br>
+              <label for="email">Email :</label> <br>
+              <input class="email" type="text" id="email" > <br><br>
+              <label for="message">Message :</label> <br>
+              <input class="message" type="text" id="message" > <br><br>
+              <input onclick="popAlert()" type= "submit" value="Submit"> 
+          </form>
+        </div>
+
+        <div class="column2">
+          <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="linear.html">Linear Motion</a></li>
+            <li> <a class="active" href="area.html" id="home">Area Calculations</a></li>
+            <li> <a href="surfacearea.html">Surface Area Calculations</a></li>
+            <li> <a href="volume.html">Volume Calculations</a></li>
+            <li> <a href="unitconversion.html">Unit Conversion</a></li>
+            <li> <a href="cv.html">About Me</a></li>
+          </ul>
+          <a class="scrollup" href="#home"><img class="uparrow" src="up.png" ></a><br>
+          <h1>Area Calculations</h1>
+
+          <h2 class="linearcalc" >1) Square </h2>
+          <img class="imagetable2" src="square.jpg"><br>
+          <label class="linearcalc" for="square">a :</label> <br>
+          <input class="linearcalc"  type="number" id="square"> <br><br>
+          <input class="linearcalc" onclick="squarecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="squarearea"></p><br>
+          
+          <h2 class="linearcalc" >2) Rectangle </h2>
+          <img class="imagetable2" src="rectangle.jpg"><br>
+          <label class="linearcalc" for="rectangle1">a :</label> <br>
+          <input class="linearcalc"  type="number" id="rectangle1"> <br><br>
+          <label class="linearcalc" for="rectangle2">b :</label> <br>
+          <input class="linearcalc"  type="number" id="rectangle2"> <br><br>
+          <input class="linearcalc" onclick="rectanglecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="rectanglearea"></p><br>
+
+          <h2 class="linearcalc" >3) Triangle </h2>
+          <img class="imagetable2" src="triangle.jpg"><br>
+          <label class="linearcalc" for="triangle1">a :</label> <br>
+          <input class="linearcalc"  type="number" id="triangle1"> <br><br>
+          <label class="linearcalc" for="triangle2">h :</label> <br>
+          <input class="linearcalc"  type="number" id="triangle2"> <br><br>
+          <input class="linearcalc" onclick="trianglecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="trianglearea"></p><br>
+
+          <h2 class="linearcalc" >4) Circle </h2>
+          <img class="imagetable2" src="circle.jpg"><br>
+          <label class="linearcalc" for="circle">r :</label> <br>
+          <input class="linearcalc"  type="number" id="circle"> <br><br>
+          <input class="linearcalc" onclick="circlecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="circlearea"></p><br>
+
+          <h2 class="linearcalc" >5) Elipse </h2>
+          <img class="imagetable2" src="elipse.jpg"><br>
+          <label class="linearcalc" for="elipse1">a :</label> <br>
+          <input class="linearcalc"  type="number" id="elipse1"> <br><br>
+          <label class="linearcalc" for="elipse2">h :</label> <br>
+          <input class="linearcalc"  type="number" id="elipse2"> <br><br>
+          <input class="linearcalc" onclick="elipsecalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="elipsearea"></p><br>
+
+          <h2 class="linearcalc" >6) parallelogram </h2>
+          <img class="imagetable2" src="parallelogram.jpg"><br>
+          <label class="linearcalc" for="parallelogram1">b :</label> <br>
+          <input class="linearcalc"  type="number" id="parallelogram1"> <br><br>
+          <label class="linearcalc" for="parallelogram2">h :</label> <br>
+          <input class="linearcalc"  type="number" id="parallelogram2"> <br><br>
+          <input class="linearcalc" onclick="parallelogramcalculation()" type= "submit" value="Calculate">
+          <p class="linearcalc" id="parallelogramarea"></p><br>
+          <br><br><br><br>
+        </div>
+    </body>
+</html>
+    
+    
